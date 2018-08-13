@@ -27,7 +27,7 @@ sudo rm -rf tophat-2.1.1.OSX_x86_64.tar.gz
 sudo rm -rf bowtie-1.2.2-macos-x86_64.zip
 sudo rm -rf python-2.7.15-macosx10.9.pkg
 
-sudo export PATH=$PATH:~/softwarepackages/tophat:~/softwarepackages/bowtie:~/softwarepackages/root/bin
+export PATH=$PATH:~/softwarepackages/tophat:~/softwarepackages/bowtie:~/softwarepackages/root/bin
 
 sudo hdiutil attach RStudio-1.1.456.dmg
 cd /Volumes/RStudio-1.1.456
